@@ -1,0 +1,6 @@
+/.gradle
+/.idea
+*.class
+*.log
+# Project exclude paths
+/build/
