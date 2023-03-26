@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
 
-public class FakerRegistrationTest {
+public class FakerRegistrationTest extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
 
