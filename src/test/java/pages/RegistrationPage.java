@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class RegistrationPage {
     CalendarComponent calendarComponent = new CalendarComponent();
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
-    private final String titleText = "Student Registration Form";
+    public static final String titleText = "Student Registration Form";
     private SelenideElement firstNameSelector = $("#firstName");
     private SelenideElement lastNameSelector = $("#lastName");
     private SelenideElement userEmailSelector = $("#userEmail");
