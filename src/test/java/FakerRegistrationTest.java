@@ -9,7 +9,8 @@ import static io.qameta.allure.Allure.step;
 
 
 public class FakerRegistrationTest extends TestBase {
-    RegistrationPage registrationPage = new RegistrationPage();
+        RegistrationPage registrationPage = new RegistrationPage();
+
 
 
     @Test
