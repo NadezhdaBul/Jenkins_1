@@ -7,6 +7,7 @@ import pages.components.RegistrationResultsModal;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+import static io.qameta.allure.Allure.step;
 
 public class RegistrationPage {
     CalendarComponent calendarComponent = new CalendarComponent();
@@ -29,8 +30,11 @@ public class RegistrationPage {
 
 
     public void openPage() {
-        open("https://demoqa.com/automation-practice-form");
-        $(".practice-form-wrapper").shouldHave(text(titleText));
+        step ("open page", () -> {
+            open("https://demoqa.com/automation-practice-form");
+            $(".practice-form-wrapper").shouldHave(text(titleText));
+        });
+
 
 
     }
