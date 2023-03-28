@@ -14,7 +14,7 @@ public class TestBase extends RegistrationPage {
     @BeforeAll
     public static void setup() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        Configuration.baseUrl = "https://demoqa.com/automation-practice-form";
+        Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.browser = "chrome";
         Configuration.browserVersion = "100.0";

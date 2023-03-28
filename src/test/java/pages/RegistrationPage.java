@@ -33,7 +33,6 @@ public class RegistrationPage {
         $(".practice-form-wrapper").shouldHave(text(titleText));
 
 
-
     }
 
     public void executeJS() {

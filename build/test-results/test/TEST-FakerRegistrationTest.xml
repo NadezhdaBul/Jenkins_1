@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FakerRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T18:40:04" hostname="DESKTOP-L7MPK2K" time="21.768">
+<testsuite name="FakerRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T19:01:15" hostname="DESKTOP-L7MPK2K" time="20.39">
   <properties/>
-  <testcase name="toolsQaForm()" classname="FakerRegistrationTest" time="21.768"/>
+  <testcase name="toolsQaForm()" classname="FakerRegistrationTest" time="20.39"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=LINUX
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.12.3
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on LINUX (a24078a0ff7f9f1dec5d22b2ef03f7a6)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on LINUX (a24078a0ff7f9f1dec5d22b2ef03f7a6),proxy=null,downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on LINUX (116d5f8bc33d9abb1a26b6a3d7341f28)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on LINUX (116d5f8bc33d9abb1a26b6a3d7341f28),proxy=null,downloadsFolder=null] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
