@@ -59,7 +59,7 @@ public class FakerRegistrationTest extends TestBase {
         registrationPage.setPictures(userPictureLocation);
         registrationPage.setAddress(userAddress);
         registrationPage.setState(userState);
-        registrationPage.setCity(usCity);
+        registrationPage.setCity(userCity);
 
         registrationPage.clickSubmit();
 
