@@ -39,8 +39,15 @@ allure{
     }
 }
 
+
 test {
     useJUnitPlatform()
+}
+
+dependencies {
+    testImplementation(
+            "org.aeonbits.owner:owner:1.0.12",
+    )
 }
 
 task hw_test (type: Test) {

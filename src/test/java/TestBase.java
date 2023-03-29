@@ -18,14 +18,15 @@ public class TestBase extends RegistrationPage {
     public static void setup() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
+        Configuration.remote = "https://user1:1234@" + System.getProperty("selenoid_url", "selenoid.autotests.cloud/wd/hub");
+
 //        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.baseUrl(format("%s!", System.getProperty("base_url", "unknown_url" )));
+        Configuration.baseUrl = System.getProperty("base_url", "https://demoqa.com" );
 
 //        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        Configuration.remote(format("%s!", System.getProperty("https://user1:1234"+"remote", "unknown_remote" )));
-        Configuration.browser = "chrome";
-        Configuration.browserVersion = "100.0";
-
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browser_version", "100.0");
+        Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
